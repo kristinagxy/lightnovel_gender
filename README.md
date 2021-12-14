@@ -36,6 +36,12 @@ Each character has an initial power score of zero. After we have gone through al
 
 ## Conclusion
 
+Overall, the power of females is lower than that of males from the light novels that we incorporated in the dataset. The patterns vary based on the theme. According to the results, the action is the only theme where male characters have the dominant power over females since they are shown in general as more powerful from the beginning of the story till the end. In the mature and drama theme, though male characters are shown to be the powerful ones at the end, there are parts of the story where women appear to be more powerful. However, in the slice of life theme, though varying by part of the story, overall female characters have the dominant power over males. 
+
+We suggest that the pattern are likely to be related to the target audience of the theme. In specific, the target readers for the theme “action” are mainly males, and they may prefer a more masculine plot that emphasizes men’s power and their capability as protectors. On the other hand,  the slice of life is a theme that refers to a naturalistic representation of real life, and it often combines romantic elements. The main characters are usually females and their high school friends, and the novels are often written from first-person perspectives. Therefore, the target audience of the theme mainly consists of female readers who expect to see characters of the same gender growing and thriving. In this way, it is plausible that female characters’ power is higher than males in light novels written in the slice of life genre. 
+
+
+
 ## The Notebooks
 
 The notebook doing the scraping from Baka-Tsuki is in [340scraping.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/340scraping.ipynb)

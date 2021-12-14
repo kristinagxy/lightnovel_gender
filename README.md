@@ -55,3 +55,5 @@ The dictionary containing information about the series is in [all_dict.pickle](h
 The notebook integrating the dataframes and conducting the analysis is in [340getcsv_analysis.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/340getcsv_analysis.ipynb)
 
 The csv of the final information about the characters (name, gender, novel series, volume, genre, power in 5 parts) are stored in [power_normalized.csv](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/power_normalized.csv)
+
+#Thank you!! 

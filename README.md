@@ -44,16 +44,18 @@ We suggest that the pattern are likely to be related to the target audience of t
 
 ## The Notebooks
 
-The notebook doing the scraping from Baka-Tsuki is in [340scraping.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/340scraping.ipynb)
+The notebook doing the scraping from Baka-Tsuki is in [lightnovel_scraping.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_scraping.ipynb)
 
-The notebook implementing the method on the corpus is in [340implementation.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/340implementation.ipynb)
+The notebook implementing the method on the corpus is in [lightnovel_implementation.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_implementation.ipynb)
 
 The notebook lemmatizing the power frame is in [Preparing_agency_power_lemma_csv.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/Preparing_agency_power_lemma_csv.ipynb)
 
 The dictionary containing information about the series is in [all_dict.pickle](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/all_dict.pickle)
 
-The notebook integrating the dataframes and conducting the analysis is in [340getcsv_analysis.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/340getcsv_analysis.ipynb)
+The notebook describing the corpus, and conducting the visualizations and analysis of power scores is in [lightnovel_analysis.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_analysis.ipynb)
 
-The csv of the final information about the characters (name, gender, novel series, volume, genre, power in 5 parts) are stored in [power_normalized.csv](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/power_normalized.csv)
+The notebook conducting other analysis (modifiers and possessions) is in [lightnovel_other_analysis.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_other_analysis.ipynb)
+
+The csv of the final information about the characters (name, gender, novel series, volume, genre, power in 5 parts) are stored in [output.csv](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/output.csv)
 
 # Thank you!! 

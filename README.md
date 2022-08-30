@@ -65,5 +65,3 @@ The dictionary containing information about the series is in [all_dict.pickle](h
 The csv of the final information about the characters (name, gender, novel series, volume, genre, power in 5 parts) are stored in [output_9.csv](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/output_9.csv)
 
 
-
-# Thank you!! 

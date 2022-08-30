@@ -56,6 +56,6 @@ The notebook describing the corpus, and conducting the visualizations and analys
 
 The notebook conducting other analysis (modifiers and possessions) is in [lightnovel_other_analysis.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_other_analysis.ipynb)
 
-The csv of the final information about the characters (name, gender, novel series, volume, genre, power in 5 parts) are stored in [output.csv](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/output.csv)
+The csv of the final information about the characters (name, gender, novel series, volume, genre, power in 5 parts) are stored in [output_9.csv](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/output_9.csv)
 
 # Thank you!! 

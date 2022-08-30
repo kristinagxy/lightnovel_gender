@@ -44,14 +44,7 @@ After collecting the basic information of the major characters, we further divid
 We employ the lexicon of power frames curated by Sap et al. in order to get the relative power for each of the major characters. In the lexicon, each verb has a corresponding label indicating whether it is the agent or the patient/theme of the verb that has more power, or the two have equal power. We first lemmatize the verbs in the lexicon and the list of verbs we have obtained for each character from BookNLP so that the verbs would match regardless of different conjugations. Then we compare the list of verbs for the characters with the lexicon. We determine whether the verb signals the character is having more power or less power by looking at the label of the verb in the lexicon and the relationship of the character to the verb. Then we decide whether we need to add or subtract one from the power score of the character.
 
 Each character has an initial power score of zero. After we have gone through all the verbs, we normalized the power scores by dividing the current score by the total number of verbs in the list. In this way we take into account the differences in length and number of verbs of the novels. The final power score we obtain is a value from -1 to 1, with 1 indicating high power status, and -1 indicating low power status.
-
-## Conclusion
-
-Overall, the power of females is lower than that of males from the light novels that we incorporated in the dataset. The patterns vary based on the theme. According to the results, the action is the only theme where male characters have the dominant power over females since they are shown in general as more powerful from the beginning of the story till the end. In the mature and drama theme, though male characters are shown to be the powerful ones at the end, there are parts of the story where women appear to be more powerful. However, in the slice of life theme, though varying by part of the story, overall female characters have the dominant power over males. 
-
-We suggest that the pattern are likely to be related to the target audience of the theme. In specific, the target readers for the theme “action” are mainly males, and they may prefer a more masculine plot that emphasizes men’s power and their capability as protectors. On the other hand,  the slice of life is a theme that refers to a naturalistic representation of real life, and it often combines romantic elements. The main characters are usually females and their high school friends, and the novels are often written from first-person perspectives. Therefore, the target audience of the theme mainly consists of female readers who expect to see characters of the same gender growing and thriving. In this way, it is plausible that female characters’ power is higher than males in light novels written in the slice of life genre. 
-
-
+ 
 
 ## The Notebooks
 
@@ -61,12 +54,16 @@ The notebook implementing the method on the corpus is in [lightnovel_implementat
 
 The notebook lemmatizing the power frame is in [Preparing_agency_power_lemma_csv.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/Preparing_agency_power_lemma_csv.ipynb)
 
-The dictionary containing information about the series is in [all_dict.pickle](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/all_dict.pickle)
-
 The notebook describing the corpus, and conducting the visualizations and analysis of power scores is in [lightnovel_analysis.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_analysis.ipynb)
 
 The notebook conducting other analysis (modifiers and possessions) is in [lightnovel_other_analysis.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_other_analysis.ipynb)
 
+## information about the series and the output dataframe
+
+The dictionary containing information about the series is in [all_dict.pickle](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/all_dict.pickle)
+
 The csv of the final information about the characters (name, gender, novel series, volume, genre, power in 5 parts) are stored in [output_9.csv](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/output_9.csv)
+
+
 
 # Thank you!! 

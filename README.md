@@ -1,4 +1,24 @@
-# qtm340_lightnovel-gender
+# Gender and Power in Japanese Light Novels
+
+## Abstract
+
+In Japanese culture, the light novel – a combination of text and anime-style illustrations–is a relatively
+new literary form. It derives from the broader otaku culture, which is also associated with video
+games, manga, cosplay, anime, and other forms of Japanese popular culture. Though the light
+novel lacks the global reach of some of these other genres, such as manga and anime, it nonetheless
+attracts millions of readers across a range of gender and age groups. While distinct subgenres of
+the light novel have emerged, such as romance, adventure, horror, and harem, issues of gender
+stereotyping, power imbalances, and other forms of inequality remain strongly entrenched. These
+issues can be attributed to how otaku culture is rooted in heterosexual male desire. This paper offers
+a quantitative assessment of these issues of gender inequality. We analyze 290 light novels, scraped
+from the Baka-Tsuki Translation Community Wiki, in terms of the power relationships between
+female and male characters as they evolve over the course of each novel. We find patterns consistent
+with issues of gender stereotyping and power differentials. More specifically, we find that female
+characters consistently wield less power than male characters, especially towards the end of each
+novel. We find some variation in specific subgenres. We conclude with close readings of two light
+novels, demonstrating how a power frames approach to analyzing gender stereotypes in otaku culture
+augments existing work on the subject.
+
 
 ## Background
 
@@ -14,9 +34,9 @@ Our final corpus consists of the 56 novel series with a total of 290 volumes fro
 
 The original text data which is a subset of light novels under Language:English category from Baka-Tsuki are in [light_novel_original.zip](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/light_novel_original.zip).
 
-The novel is included in our dataset if it meets two criterias. First, it needs to have at least one genre label with it. Second, it needs to have a complete English translation in a relatively standard format within the community website. 
+When scraping the novels, we employed the following criteria for inclusion: first, it needed to have at least one genre label; and second, it needed to have a complete English translation in a relatively standard format.
 
-Different volumes in the same novel series are treated as separate books. We also exclude the side stories. Besides, the translators might use different words when indicating a new volume. For example, most translators use the word “volume”, a small proportion of the translators use “phase” or “part”, while still some others simply use the title of the volume directly as an indicator. During the scraping process, we include all these different synonyms of volumes.
+After cleaning and implementing BookNLP and Connotation Frames of Power (as described in the section below), the output file can be found
 
 ## Methods
 

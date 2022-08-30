@@ -19,15 +19,6 @@ novel. We find some variation in specific subgenres. We conclude with close read
 novels, demonstrating how a power frames approach to analyzing gender stereotypes in otaku culture
 augments existing work on the subject.
 
-
-## Background
-
-The light novel is a popular literary genre in pop culture, especially in Japan. They are commonly illustrated in a manga art style, with anime-style covers and illustrations among pages of the story, and are often adapted into manga and anime. Individual volumes of light novels are short in length compared to ordinary novels, but one series of light novels can be made up of multiple volumes, where each volume is a different story under the same world setting, with in most cases different main characters and plots. 
-
-Just like other Japanese subcultures, some light novels are considered to be having unethical or immoral content. For example, some might be accused of being sexually explicit or overtly violent. Light novels mostly target young people (age between 15-30), and the majority of the readers are related to some sub-culture such as anime, manga, or “otaku”. Light novels include a wide range of genres. One popular genre of light novels is fantasy and adventure in a different world. 
-
-In this project, we are investigating whether there exist some characteristic patterns for female characters in those books. We hope to study the portrayal of female characters versus male characters in those light novels and how their powers evolve within the plot.
-
 ## Corpus
 
 Our final corpus consists of the 56 novel series with a total of 290 volumes from 17 genres in English from [Baka-Tsuki translation community](https://www.baka-tsuki.org/project/index.php?title=Main_Page)

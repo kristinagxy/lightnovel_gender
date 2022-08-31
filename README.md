@@ -35,14 +35,17 @@ We picked the top 9 most frequently-mentioned characters as our focus of interes
 
 ### Main Character References and Referential Gender
 
-We use the Python package BookNLP to extract the proper references, referential gender, actions for which the characters are the agent and patient as well as modifers and possessions of the character. 
+We use the Python package [BookNLP](https://github.com/booknlp/booknlp) [^1] to extract the proper references, referential gender, actions for which the characters are the agent and patient as well as modifers and possessions of the character. 
 
 We first run BookNLP on the full-text for each volume in the corpus. After collecting the basic information of the major characters, we then further divided each volume into 5 sections of equal length (without breaking sentences) to see the evolution of power in the story.
 
 ### Main Character Power Scores
 
-We employ the lexicon of power frames curated by Sap et al. to determine the power score for each of the major characters. We normalized the power scores by dividing the score by the total number of verbs where the character is involved. The final power score we obtain is a value from -1 to 1, with 1 indicating high power status, and -1 indicating low power status.
+We employ the lexicon of power frames curated by Sap et al. [^2] to determine the power score for each of the major characters. We normalized the power scores by dividing the score by the total number of verbs where the character is involved. The final power score we obtain is a value from -1 to 1, with 1 indicating high power status, and -1 indicating low power status.
  
+ [^1]: D. Bamman, T. Underwood, N. A. Smith, A bayesian mixed effects model of literary character, in: Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), 2014, pp. 370–379.
+ [^2]: M. Sap, M. C. Prasettio, A. Holtzman, H. Rashkin, Y. Choi, Connotation frames of power and agency in modern films, in: Proceedings of the 2017 conference on empirical methods in natural language processing, 2017, pp. 2329–2334.
+
 
 ## The Notebooks
 

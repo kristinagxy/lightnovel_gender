@@ -23,27 +23,25 @@ augments existing work on the subject.
 
 Our final corpus consists of the 56 novel series with a total of 290 volumes from 17 genres in English from [Baka-Tsuki translation community](https://www.baka-tsuki.org/project/index.php?title=Main_Page)
 
-The original text data which is a subset of light novels under Language:English category from Baka-Tsuki are in [light_novel_original.zip](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/light_novel_original.zip).
-
 When scraping the novels, we employed the following criteria for inclusion: first, it needed to have at least one genre label; and second, it needed to have a complete English translation in a relatively standard format.
 
-After cleaning and implementing BookNLP and Connotation Frames of Power (as described in the section below), the output file can be found
+The text data (after cleaning) which is a subset of light novels under Language:English category from Baka-Tsuki are in [light_novel_original.zip](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/light_novel_original.zip).
 
 ## Methods
 
-### BookNLP
+### Main Character Identification
 
-We use the Python package BookNLP to extract information about characters from the corpus we obtained. For our purpose, we use BookNLP to extract the proper references, referential gender, and actions for which the characters are the agent and patient. 
+We picked the top 9 most frequently-mentioned characters as our focus of interest. The number was selected by finding the point with maximum curvature of normalized character mentions with respect to "frequency ranks".
 
-We first combine the chapters in each volume into a full-text by chapter order, and run BookNLP on the full-text for each volume in the corpus. BookNLP returns a JSON file with information about all characters in the book. Then we select the top 5 characters with high counts as the major characters, and our analysis will focus on these 5 characters. After that, we extract the information that we are interested in from the main characters, which are proper references and referential gender.
+### Main Character References and Referential Gender
 
-After collecting the basic information of the major characters, we further divide the volume into 5 parts with roughly equal number of words without breaking sentences in order to see how the power of characters evolves during the course of the story. Again we run BookNLP on the sub-parts of the volume. We obtain the information of the 5 main characters in each of the sub-parts by matching proper references. If the character in the sub-part is mentioned by at least one of the proper references of a main character, then the character is that main character. After locating the main characters, we extract the actions for which the character is the agent or the patient in that sub-part. Here the actions are verbs in the book. An agent is someone who performs the action, while a patient/theme receives the action. We would use this list of verbs to calculate the power score in the next section.
+We use the Python package BookNLP to extract the proper references, referential gender, actions for which the characters are the agent and patient as well as modifers and possessions of the character. 
 
-### Connotation Frames of Power
+We first run BookNLP on the full-text for each volume in the corpus. After collecting the basic information of the major characters, we then further divided each volume into 5 sections of equal length (without breaking sentences) to see the evolution of power in the story.
 
-We employ the lexicon of power frames curated by Sap et al. in order to get the relative power for each of the major characters. In the lexicon, each verb has a corresponding label indicating whether it is the agent or the patient/theme of the verb that has more power, or the two have equal power. We first lemmatize the verbs in the lexicon and the list of verbs we have obtained for each character from BookNLP so that the verbs would match regardless of different conjugations. Then we compare the list of verbs for the characters with the lexicon. We determine whether the verb signals the character is having more power or less power by looking at the label of the verb in the lexicon and the relationship of the character to the verb. Then we decide whether we need to add or subtract one from the power score of the character.
+### Main Character Power Scores
 
-Each character has an initial power score of zero. After we have gone through all the verbs, we normalized the power scores by dividing the current score by the total number of verbs in the list. In this way we take into account the differences in length and number of verbs of the novels. The final power score we obtain is a value from -1 to 1, with 1 indicating high power status, and -1 indicating low power status.
+We employ the lexicon of power frames curated by Sap et al. to determine the power score for each of the major characters. We normalized the power scores by dividing the score by the total number of verbs where the character is involved. The final power score we obtain is a value from -1 to 1, with 1 indicating high power status, and -1 indicating low power status.
  
 
 ## The Notebooks

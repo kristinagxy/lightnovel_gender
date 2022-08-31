@@ -60,6 +60,8 @@ The notebook conducting other analysis (modifiers and possessions) is in [lightn
 
 The dictionary containing information about the series is in [all_dict.pickle](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/all_dict.pickle)
 
+The csv of total token counts and unique token counts for each volume is in [token_count.csv](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/token_count.csv)
+
 The csv of the final information about the characters (name, gender, novel series, volume, genre, power in 5 parts) are stored in [output_9.csv](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/output_9.csv)
 
 

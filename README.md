@@ -55,9 +55,9 @@ The notebook implementing the method on the corpus is in [lightnovel_implementat
 
 The notebook lemmatizing the power frame is in [Preparing_agency_power_lemma_csv.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/Preparing_agency_power_lemma_csv.ipynb)
 
-The notebook describing the corpus, and conducting the visualizations and analysis of power scores is in [lightnovel_analysis.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_analysis.ipynb)
+The notebook describing the corpus, and conducting the visualizations and analysis of power scores is in [lightnovel_analysis_new.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_analysis_new.ipynb)
 
-The notebook conducting other analysis (modifiers and possessions) is in [lightnovel_other_analysis_new.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_other_analysis_new.ipynb)
+The notebook conducting other analysis (modifiers and possessions) is in [lightnovel_other_analysis.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_other_analysis.ipynb)
 
 The notebook validating the power frames method is in [lightnovel_validation.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_validation.ipynb)
 

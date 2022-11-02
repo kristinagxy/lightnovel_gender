@@ -51,7 +51,7 @@ We employ the lexicon of power frames curated by Sap et al. [^2] to determine th
 
 The notebook doing the scraping from Baka-Tsuki is in [lightnovel_scraping.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_scraping.ipynb)
 
-The notebook implementing the method on the corpus is in [lightnovel_implementation.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_implementation.ipynb)
+The notebook implementing the method on the corpus is in [lightnovel_implementation_new.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_implementation_new.ipynb)
 
 The notebook lemmatizing the power frame is in [Preparing_agency_power_lemma_csv.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/Preparing_agency_power_lemma_csv.ipynb)
 

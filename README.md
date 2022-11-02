@@ -59,6 +59,8 @@ The notebook describing the corpus, and conducting the visualizations and analys
 
 The notebook conducting other analysis (modifiers and possessions) is in [lightnovel_other_analysis.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_other_analysis.ipynb)
 
+The notebook validating the power frames method is in [lightnovel_validation.ipynb](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/lightnovel_validation.ipynb)
+
 ## information about the series and the output dataframe
 
 The dictionary containing information about the series is in [all_dict.pickle](https://github.com/kristinagxy/qtm340_lightnovel-gender/blob/main/all_dict.pickle)
